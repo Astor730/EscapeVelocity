@@ -21,7 +21,7 @@ public class PanelButtonBehavior : MonoBehaviour
     void Update()
     {
         closeEnough = Vector3.Distance(player.position, transform.position) <= 3;
-        if (closeEnough)
+        if(closeEnough)
         {
             FindObjectOfType<LevelManager>().DisplayPanelButtonText();
         }
