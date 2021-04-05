@@ -11,6 +11,7 @@ public class LevelManager : MonoBehaviour
     public Text panelButtonText;
     public Text gameLostText;
     public Text gameWonText;
+    public Text enemyDisableText;
 
     public static bool isGameOver;
 
@@ -22,6 +23,7 @@ public class LevelManager : MonoBehaviour
         panelButtonText.gameObject.SetActive(false);
         gameLostText.gameObject.SetActive(false);
         gameWonText.gameObject.SetActive(false);
+        enemyDisableText.gameObject.SetActive(false);
         isGameOver = false;
     }
 
@@ -86,6 +88,16 @@ public class LevelManager : MonoBehaviour
         panelButtonText.gameObject.SetActive(false);
     }
 
+    public void DisplayEnemyDisableText()
+    {
+        enemyDisableText.gameObject.SetActive(true);
+    }
+    
+    public void HideEnemyDisableText()
+    {
+        enemyDisableText.gameObject.SetActive(false);
+    }
+
     void HideAllText()
     {
         gravityText.gameObject.SetActive(false);
@@ -93,5 +105,6 @@ public class LevelManager : MonoBehaviour
         panelButtonText.gameObject.SetActive(false);
         gameLostText.gameObject.SetActive(false);
         gameWonText.gameObject.SetActive(false);
+        enemyDisableText.gameObject.SetActive(false);
     }
 }
