@@ -24,7 +24,7 @@ public class DroneBehavior : MonoBehaviour
         {
             transform.LookAt(player);
 
-            closeEnough = Vector3.Distance(transform.position, player.position) <= 8;
+            closeEnough = Vector3.Distance(transform.position, player.position) <= 10;
 
             if (closeEnough && ready)
             {
