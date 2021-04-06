@@ -52,7 +52,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2123d1b76fc0fb46863115eaa61afc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pulseRate: 3
+  pulseRate: 3.5
+  laserOnSFX: {fileID: 8300000, guid: 3ec6a9bae800e064fb403783851c249b, type: 3}
+  laserOffSFX: {fileID: 8300000, guid: 99122d91fd126504bb89a3fb48002e44, type: 3}
 --- !u!1001 &1438291471793927692
 PrefabInstance:
   m_ObjectHideFlags: 0

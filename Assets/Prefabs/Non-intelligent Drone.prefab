@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3915465905234030421}
   - component: {fileID: 3915465905234030420}
   m_Layer: 0
-  m_Name: Testing Drone
+  m_Name: Non-intelligent Drone
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -111,3 +111,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 7335814118411936308, guid: fc5bf27788fed4bdfa3bafaa4dd0cf9e, type: 3}
   projectileForce: 10
+  shootSFX: {fileID: 8300000, guid: 866a4452890abb643aae428cf0973feb, type: 3}
+  shootRate: 1.5
+  shootDistance: 25

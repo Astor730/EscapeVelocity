@@ -9,6 +9,10 @@ public class DroneBehavior : MonoBehaviour
     public float projectileForce = 10f;
     bool closeEnough;
     bool ready;
+    public AudioClip shootSFX;
+    public float shootRate = 2f;
+    public float shootDistance = 10f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,16 +24,22 @@ public class DroneBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        RaycastHit hit;
         if(!LevelManager.isGameOver)
         {
+           
             transform.LookAt(player);
 
-            closeEnough = Vector3.Distance(transform.position, player.position) <= 10;
+            closeEnough = Vector3.Distance(transform.position, player.position) <= shootDistance;
 
-            if (closeEnough && ready)
+            if(Physics.Raycast(transform.position, transform.forward, out hit, Mathf.Infinity))
             {
-                ready = false;
-                Invoke("LaunchProjectile", 2);
+                if(hit.transform.CompareTag("Player") && closeEnough && ready)
+                {
+                    ready = false;
+                    Invoke("LaunchProjectile", shootRate);
+                }
             }
         }
     }
@@ -48,6 +58,8 @@ public class DroneBehavior : MonoBehaviour
             GameObject.FindGameObjectWithTag("ProjectileParent").transform);
 
         ready = true;
+
+        AudioSource.PlayClipAtPoint(shootSFX, transform.position);
     }
 
 

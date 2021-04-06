@@ -6,6 +6,8 @@ public class PulsatingLasers : MonoBehaviour
 {
 
     public float pulseRate = 3f;
+    public AudioClip laserOnSFX;
+    public AudioClip laserOffSFX;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,10 +24,12 @@ public class PulsatingLasers : MonoBehaviour
     void LaserSetActive()
     {
         transform.gameObject.SetActive(true);
+        AudioSource.PlayClipAtPoint(laserOnSFX, transform.position);
     }
 
     void LaserSetInactive()
     {
         transform.gameObject.SetActive(false);
+        AudioSource.PlayClipAtPoint(laserOffSFX, transform.position);
     }
 }

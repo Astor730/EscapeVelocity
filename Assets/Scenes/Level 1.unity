@@ -320,7 +320,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1032783374410109340, guid: 982f985873788834c911119427564b7f, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1032783374410109340, guid: 982f985873788834c911119427564b7f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -611,6 +611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxDistance: 3
+  disableSFX: {fileID: 8300000, guid: 168dc94aa7e5db44b8e0eca7eeee5cdb, type: 3}
 --- !u!1 &63134085
 GameObject:
   m_ObjectHideFlags: 0
@@ -1376,7 +1377,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3915465905234030440, guid: 7c3646144e9a7d6479573216170f5b71, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3915465905234030440, guid: 7c3646144e9a7d6479573216170f5b71, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2350,7 +2351,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &612257011
 GameObject:
@@ -3191,7 +3192,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3915465905234030440, guid: 7c3646144e9a7d6479573216170f5b71, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3915465905234030440, guid: 7c3646144e9a7d6479573216170f5b71, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3829,7 +3830,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3915465905234030440, guid: 7c3646144e9a7d6479573216170f5b71, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3915465905234030440, guid: 7c3646144e9a7d6479573216170f5b71, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4287,7 +4288,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1233508699
 GameObject:
@@ -4975,7 +4976,7 @@ RectTransform:
   - {fileID: 612257012}
   - {fileID: 289580074}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5881,6 +5882,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 7335814118411936308, guid: fc5bf27788fed4bdfa3bafaa4dd0cf9e, type: 3}
   projectileForce: 10
+  shootSFX: {fileID: 0}
+  shootRate: 2
+  shootDistance: 10
 --- !u!1 &1898882993
 GameObject:
   m_ObjectHideFlags: 0

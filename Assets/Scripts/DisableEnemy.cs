@@ -5,6 +5,7 @@ using UnityEngine;
 public class DisableEnemy : MonoBehaviour
 {
     public float maxDistance = 3f;
+    public AudioClip disableSFX;
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +32,7 @@ public class DisableEnemy : MonoBehaviour
                     {
                         if (Input.GetKeyDown(KeyCode.F))
                         {
+                            AudioSource.PlayClipAtPoint(disableSFX, transform.position);
                             Destroy(hit.transform.gameObject);
                             FindObjectOfType<LevelManager>().HideEnemyDisableText();
                         }
