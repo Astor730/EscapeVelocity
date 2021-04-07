@@ -15,7 +15,6 @@ public class EnemyAi : MonoBehaviour
 
     public GameObject[] wanderPoints;
     Vector3 nextDestination;
-    Animator anim;
     float distanceToPlayer;
 
     public float enemySpeed = 5;
@@ -35,7 +34,7 @@ public class EnemyAi : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        wanderPoints = GameObject.FindGameObjectsWithTag("WanderPoint");
+        
 
 
         Initialize();
@@ -67,17 +66,17 @@ public class EnemyAi : MonoBehaviour
     {
         currentState = FSMStates.Patrol;
         FindnextPoint();
-        anim = GetComponent<Animator>();
+        
         player = GameObject.FindGameObjectWithTag("Player");
     }
 
     void UpdatePatrolState()
     {
         
-        //anim.SetInteger("AnimState", 1);
+        
         agent.stoppingDistance = 0;
 
-        if(Vector3.Distance(transform.position, nextDestination) < 1)
+        if(Vector3.Distance(transform.position, nextDestination) < 1.1)
         {
             FindnextPoint();
         }
@@ -94,7 +93,7 @@ public class EnemyAi : MonoBehaviour
 
     void UpdateChaseState()
     {
-        anim.SetInteger("AnimState", 2);
+        
 
         agent.stoppingDistance = attackDistance;
         agent.speed = enemySpeed;
@@ -135,14 +134,13 @@ public class EnemyAi : MonoBehaviour
         FaceTarget(nextDestination);
         agent.speed = enemySpeed + 3;
 
-        anim.SetInteger("AnimState", 3);
+        
 
     }
 
     void FindnextPoint()
     {
         currentDestinationIndex = (currentDestinationIndex + 1) % wanderPoints.Length;
-        print(currentDestinationIndex = (currentDestinationIndex + 1) % wanderPoints.Length);
 
         nextDestination = wanderPoints[currentDestinationIndex].transform.position;
 
@@ -153,7 +151,6 @@ public class EnemyAi : MonoBehaviour
     {
         Vector3 directionToTarget = (target - transform.position).normalized;
         directionToTarget.y = 0;
-        print(Quaternion.LookRotation(directionToTarget));
         Quaternion lookRotation = Quaternion.LookRotation(directionToTarget);
         transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, 10 * Time.deltaTime);
     }
