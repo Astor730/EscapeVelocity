@@ -7,6 +7,7 @@ TagManager:
   - ProjectileParent
   - Projectile
   - Enemy
+  - WanderPoint
   layers:
   - Default
   - TransparentFX
