@@ -6,7 +6,9 @@ public class PanelButtonBehavior : MonoBehaviour
 {
     Transform player;
     bool closeEnough;
+
     public GameObject panel;
+    private Animator panelAnim;
 
     public AudioClip panelSFX;
 
@@ -15,6 +17,7 @@ public class PanelButtonBehavior : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
         closeEnough = false;
+        panelAnim = panel.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -32,8 +35,15 @@ public class PanelButtonBehavior : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.B) && closeEnough)
         {
-            panel.SetActive(false);
+            panelAnim.SetInteger("State", 1);
+            StartCoroutine(setInactive());
             AudioSource.PlayClipAtPoint(panelSFX, Camera.main.transform.position);
         }
+    }
+
+    private IEnumerator setInactive()
+    {
+        yield return new WaitForSeconds(2f);
+        panel.SetActive(false);
     }
 }
