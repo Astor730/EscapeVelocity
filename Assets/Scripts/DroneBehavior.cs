@@ -7,6 +7,7 @@ public class DroneBehavior : MonoBehaviour
     Transform player;
     public GameObject projectilePrefab;
     public float projectileForce = 10f;
+    
     bool closeEnough;
     bool ready;
     public AudioClip shootSFX;
