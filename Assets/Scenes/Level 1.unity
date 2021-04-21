@@ -478,6 +478,7 @@ GameObject:
   - component: {fileID: 62186137}
   - component: {fileID: 62186136}
   - component: {fileID: 62186138}
+  - component: {fileID: 62186139}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -613,6 +614,19 @@ MonoBehaviour:
   maxDistance: 3
   disableSFX: {fileID: 8300000, guid: 168dc94aa7e5db44b8e0eca7eeee5cdb, type: 3}
   explosion: {fileID: 6180792811515549085, guid: f78af7dbfaef48c4fb9876f53a2959d5, type: 3}
+--- !u!114 &62186139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62186131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cc374bbe19ebdc4186cf3690bcfc9a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingAudio: {fileID: 8300000, guid: a6b9fe185a1239346a0cfd37c93aeee9, type: 3}
 --- !u!1 &63134085
 GameObject:
   m_ObjectHideFlags: 0

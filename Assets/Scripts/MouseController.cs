@@ -24,19 +24,27 @@ public class MouseController : MonoBehaviour
     void Update()
     {
 
-        if (transform.parent.transform != null)
+        if(!StartingCutscene.isCutscene)
         {
-            float moveX = Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
-            float moveY = Input.GetAxis("Mouse Y") * sensitivity * Time.deltaTime;
+            if(!LevelManager.isGameOver)
+            {
+                if (transform.parent.transform != null)
+                {
+                    float moveX = Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
+                    float moveY = Input.GetAxis("Mouse Y") * sensitivity * Time.deltaTime;
 
-            //yaw
-            playerBody.Rotate(Vector3.up * moveX);
+                    //yaw
+                    playerBody.Rotate(Vector3.up * moveX);
 
-            //pitch
-            pitch -= moveY;
+                    //pitch
+                    pitch -= moveY;
 
-            pitch = Mathf.Clamp(pitch, -90f, 90f);
-            transform.localRotation = Quaternion.Euler(pitch, 0, 0);
+                    pitch = Mathf.Clamp(pitch, -90f, 90f);
+                    transform.localRotation = Quaternion.Euler(pitch, 0, 0);
+                }
+            }
+            
         }
+        
     }
 }

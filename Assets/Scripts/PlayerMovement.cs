@@ -48,51 +48,55 @@ public class PlayerMovement : MonoBehaviour
         input = (transform.right * moveHorizontal + transform.forward * moveVertical).normalized;
         input *= speed;
 
-
-        if (touchingGround)
+        if(!StartingCutscene.isCutscene)
         {
-            moveDirection = input;
-            if (Input.GetButton("Jump"))
+            if (touchingGround)
             {
-                if(!gravityFlipped)
+                moveDirection = input;
+                if (Input.GetButton("Jump"))
                 {
-                    moveDirection.y = Mathf.Sqrt(2 * jump * gravity);
+                    if (!gravityFlipped)
+                    {
+                        moveDirection.y = Mathf.Sqrt(2 * jump * gravity);
+                    }
+                    else
+                    {
+                        moveDirection.y = -(Mathf.Sqrt(2 * jump * -gravity));
+                    }
+
                 }
                 else
                 {
-                    moveDirection.y = -(Mathf.Sqrt(2 * jump * -gravity));
+                    moveDirection.y = 0.0f;
                 }
-                
             }
             else
             {
-                moveDirection.y = 0.0f;
+                input.y = moveDirection.y;
+                moveDirection = Vector3.Lerp(moveDirection, input, airControl * Time.deltaTime);
+            }
+
+
+            if (Input.GetKeyDown(KeyCode.G))
+            {
+                Flip();
+                //hasFlipped = false;
+
+                gravityFlipped = !gravityFlipped;
+                gravity = -gravity;
+
+                AudioSource.PlayClipAtPoint(flipSFX, Camera.main.transform.position);
+            }
+
+            moveDirection.y -= gravity * Time.deltaTime;
+
+            if (!LevelManager.isGameOver)
+            {
+                controller.Move(moveDirection * Time.deltaTime);
             }
         }
-        else
-        {
-            input.y = moveDirection.y;
-            moveDirection = Vector3.Lerp(moveDirection, input, airControl * Time.deltaTime);
-        }
 
-
-        if (Input.GetKeyDown(KeyCode.G))
-        {
-            Flip();
-            //hasFlipped = false;
-            
-            gravityFlipped = !gravityFlipped;
-            gravity = -gravity;
-
-            AudioSource.PlayClipAtPoint(flipSFX, Camera.main.transform.position);
-        }
-
-        moveDirection.y -= gravity * Time.deltaTime;
-
-        if(!LevelManager.isGameOver)
-        {
-            controller.Move(moveDirection * Time.deltaTime);
-        }
+        
     }
 
     void TouchingGround()
