@@ -5,14 +5,14 @@ using UnityEngine;
 public class PulsatingLasers : MonoBehaviour
 {
 
-    public float pulseRate = 3f;
+    public float pulseRate = 4f;
     public AudioClip laserOnSFX;
     public AudioClip laserOffSFX;
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("LaserSetInactive", 1.5f, pulseRate);
-        InvokeRepeating("LaserSetActive", 3f, pulseRate);
+        InvokeRepeating("LaserSetInactive", pulseRate * 0.5f, pulseRate);
+        InvokeRepeating("LaserSetActive", pulseRate, pulseRate);
     }
 
     // Update is called once per frame
