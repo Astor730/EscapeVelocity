@@ -24,8 +24,6 @@ public class MouseController : MonoBehaviour
     void Update()
     {
 
-        if(!StartingCutscene.isCutscene)
-        {
             if(!LevelManager.isGameOver)
             {
                 if (transform.parent.transform != null)
@@ -44,7 +42,6 @@ public class MouseController : MonoBehaviour
                 }
             }
             
-        }
         
     }
 }
