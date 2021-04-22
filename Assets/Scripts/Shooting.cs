@@ -25,8 +25,6 @@ public class Shooting : MonoBehaviour
             Rigidbody rb = projectile.GetComponent<Rigidbody>();
 
             rb.AddForce(transform.forward * speed, ForceMode.VelocityChange);
-
-            projectile.transform.SetParent(GameObject.FindGameObjectWithTag("ProjectileParent").transform);
         }
     }
 }
