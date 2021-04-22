@@ -23,11 +23,19 @@ public class MouseController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(StartingCutscene.isCutscene)
+        {
+            GetComponent<AudioSource>().volume = 0.0f;
+        }
+        else if(!StartingCutscene.isCutscene)
+        {
+            GetComponent<AudioSource>().volume = 1.0f;
+        }
 
-            if(!LevelManager.isGameOver)
+        if(!LevelManager.isGameOver)
             {
-                if (transform.parent.transform != null)
-                {
+             if (transform.parent.transform != null)
+             {
                     float moveX = Input.GetAxis("Mouse X") * sensitivity * Time.deltaTime;
                     float moveY = Input.GetAxis("Mouse Y") * sensitivity * Time.deltaTime;
 
@@ -41,7 +49,7 @@ public class MouseController : MonoBehaviour
                     transform.localRotation = Quaternion.Euler(pitch, 0, 0);
                 }
             }
-            
+       
         
     }
 }
