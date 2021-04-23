@@ -14,7 +14,7 @@ public class EnemyHealth : MonoBehaviour
     {
         
         currentHealth = startingHealth;
-        print(startingHealth); 
+        
     }
 
     public void TakeDamage(int damageAmount)
