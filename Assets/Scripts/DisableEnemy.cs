@@ -7,6 +7,7 @@ public class DisableEnemy : MonoBehaviour
     public float maxDistance = 2f;
     public AudioClip disableSFX;
     public ParticleSystem explosion;
+    public static bool isQuitting = false;
 
     // Start is called before the first frame update
     void Start()
@@ -28,7 +29,7 @@ public class DisableEnemy : MonoBehaviour
             
             if (Physics.Raycast(transform.position, transform.forward, out hit, maxDistance))
             {
-                Debug.Log(hit.collider.CompareTag("Drone"));
+                
                 if (hit.collider.CompareTag("Drone"))
                 {
                     FindObjectOfType<LevelManager>().DisplayEnemyDisableText();
@@ -37,7 +38,10 @@ public class DisableEnemy : MonoBehaviour
                         {
                             
                             AudioSource.PlayClipAtPoint(disableSFX, transform.position);
-                            Instantiate(explosion, hit.transform.position, Quaternion.identity);
+                            if (!isQuitting)
+                            {
+                                Instantiate(explosion, hit.transform.position, Quaternion.identity);
+                            }
                             Destroy(hit.transform.gameObject);
                             FindObjectOfType<LevelManager>().HideEnemyDisableText();
                         }

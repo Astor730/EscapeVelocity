@@ -192,7 +192,10 @@ public class EnemyAi2 : MonoBehaviour
 
     private void OnDestroy()
     {
-        Instantiate(deadvfx, transform.position, transform.rotation);
+        if (!DisableEnemy.isQuitting)
+        {
+            Instantiate(deadvfx, transform.position, transform.rotation);
+        }
     }
 
     private void OnDrawGizmos()

@@ -60,6 +60,7 @@ public class LevelManager : MonoBehaviour
 
     void ReloadLevel()
     {
+        DisableEnemy.isQuitting = true;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
