@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - WanderPoint
   - Drone
+  - AI
   layers:
   - Default
   - TransparentFX
