@@ -17,14 +17,17 @@ public class Shooting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetButtonDown("Fire1"))
+        if(!PauseMenu.isGamePaused)
         {
-            GameObject projectile = Instantiate(projectilePrefab,
-                    transform.position + transform.forward, transform.rotation) as GameObject;
+            if (Input.GetButtonDown("Fire1"))
+            {
+                GameObject projectile = Instantiate(projectilePrefab,
+                        transform.position + transform.forward, transform.rotation) as GameObject;
 
-            Rigidbody rb = projectile.GetComponent<Rigidbody>();
+                Rigidbody rb = projectile.GetComponent<Rigidbody>();
 
-            rb.AddForce(transform.forward * speed, ForceMode.VelocityChange);
+                rb.AddForce(transform.forward * speed, ForceMode.VelocityChange);
+            }
         }
     }
 }

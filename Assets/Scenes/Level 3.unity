@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 5dc9a7c0a9c6441a9ab831441c8b7688, type: 2}
 --- !u!1 &14437590
 GameObject:
   m_ObjectHideFlags: 0
@@ -246,8 +246,39 @@ Transform:
   - {fileID: 225554134}
   - {fileID: 576784256}
   - {fileID: 670378338}
+  - {fileID: 1683760147}
   m_Father: {fileID: 0}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &40212238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 40212239}
+  m_Layer: 0
+  m_Name: WanderPoint (4)
+  m_TagString: WanderPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &40212239
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40212238}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.3000164, y: -13.205168, z: 22.2343}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1683760147}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &48379902
 PrefabInstance:
@@ -315,6 +346,46 @@ PrefabInstance:
     - target: {fileID: 1334230044081080186, guid: 982f985873788834c911119427564b7f, type: 3}
       propertyPath: m_Name
       value: Pulsating Laser Field (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1334230044081080186, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1535607566376416307, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2216603411455539153, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691388766331442406, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4086049741779998011, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125584731027641108, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4503240317257433801, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171169426651941277, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642087991342922410, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8766453556545190961, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 982f985873788834c911119427564b7f, type: 3}
@@ -390,6 +461,46 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pulsating Laser Field (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1334230044081080186, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1535607566376416307, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2216603411455539153, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691388766331442406, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4086049741779998011, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125584731027641108, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4503240317257433801, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171169426651941277, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642087991342922410, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8766453556545190961, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 982f985873788834c911119427564b7f, type: 3}
 --- !u!4 &57734839 stripped
@@ -464,6 +575,46 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pulsating Laser Field (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1334230044081080186, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1535607566376416307, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2216603411455539153, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691388766331442406, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4086049741779998011, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125584731027641108, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4503240317257433801, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171169426651941277, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642087991342922410, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8766453556545190961, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 982f985873788834c911119427564b7f, type: 3}
 --- !u!4 &63404902 stripped
@@ -537,6 +688,46 @@ PrefabInstance:
     - target: {fileID: 1334230044081080186, guid: 982f985873788834c911119427564b7f, type: 3}
       propertyPath: m_Name
       value: Pulsating Laser Field (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1334230044081080186, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1535607566376416307, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2216603411455539153, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691388766331442406, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4086049741779998011, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125584731027641108, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4503240317257433801, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171169426651941277, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642087991342922410, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8766453556545190961, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 982f985873788834c911119427564b7f, type: 3}
@@ -671,6 +862,36 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 109985361}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &115241830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 115241831}
+  m_Layer: 0
+  m_Name: WanderPoint (2)
+  m_TagString: WanderPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &115241831
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115241830}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.999984, y: -13.205168, z: 1.4343014}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1683760147}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &175687332
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -692,7 +913,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 668598929689026195, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.08
+      value: -1.51
       objectReference: {fileID: 0}
     - target: {fileID: 668598929689026195, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
       propertyPath: m_LocalPosition.z
@@ -729,6 +950,10 @@ PrefabInstance:
     - target: {fileID: 668598929689248435, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
       propertyPath: m_Name
       value: Drone (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 668598929689248435, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
@@ -855,6 +1080,22 @@ PrefabInstance:
       propertyPath: button
       value: 
       objectReference: {fileID: 1472908359}
+    - target: {fileID: 1326456533963417278, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734997199630278988, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866292489249400675, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2246256640807923857, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2609379204832053316, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
       propertyPath: button
       value: 
@@ -919,14 +1160,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: Laser Field (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3735406660587648290, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3755269011083593323, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580163818492446089, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5247046981462720582, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
       propertyPath: button
       value: 
       objectReference: {fileID: 1472908359}
+    - target: {fileID: 5430445319343753458, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6411512502562770537, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6590970725095376605, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
       propertyPath: button
       value: 
       objectReference: {fileID: 1472908359}
+    - target: {fileID: 7390785791361563589, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8555253039600629226, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
       propertyPath: button
       value: 
@@ -1345,6 +1610,46 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pulsating Laser Field (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1334230044081080186, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1535607566376416307, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2216603411455539153, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691388766331442406, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4086049741779998011, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125584731027641108, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4503240317257433801, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171169426651941277, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642087991342922410, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8766453556545190961, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 982f985873788834c911119427564b7f, type: 3}
 --- !u!4 &265749756 stripped
@@ -1527,6 +1832,10 @@ PrefabInstance:
     - target: {fileID: 5005543047102609733, guid: 33b6f797ced1743928b81fbce4d9a7f1, type: 3}
       propertyPath: m_Name
       value: xbot (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005543047102609733, guid: 33b6f797ced1743928b81fbce4d9a7f1, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 5637541696809624575, guid: 33b6f797ced1743928b81fbce4d9a7f1, type: 3}
       propertyPath: m_RootOrder
@@ -2225,7 +2534,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &396651362
 Transform:
@@ -2370,6 +2679,46 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pulsating Laser Field (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1334230044081080186, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1535607566376416307, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2216603411455539153, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691388766331442406, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4086049741779998011, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125584731027641108, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4503240317257433801, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171169426651941277, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642087991342922410, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8766453556545190961, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 982f985873788834c911119427564b7f, type: 3}
 --- !u!4 &441965012 stripped
@@ -2387,6 +2736,10 @@ PrefabInstance:
     - target: {fileID: 5005543047102609733, guid: 33b6f797ced1743928b81fbce4d9a7f1, type: 3}
       propertyPath: m_Name
       value: xbot (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005543047102609733, guid: 33b6f797ced1743928b81fbce4d9a7f1, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 5637541696809624575, guid: 33b6f797ced1743928b81fbce4d9a7f1, type: 3}
       propertyPath: m_RootOrder
@@ -2551,7 +2904,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &480537104
 Transform:
@@ -2646,11 +2999,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 668598929689026195, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.2133877
+      value: -1.21
       objectReference: {fileID: 0}
     - target: {fileID: 668598929689026195, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.31
+      value: -0.72
       objectReference: {fileID: 0}
     - target: {fileID: 668598929689026195, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2687,6 +3040,10 @@ PrefabInstance:
     - target: {fileID: 668598929689248435, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
       propertyPath: m_Name
       value: Drone (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 668598929689248435, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
@@ -2771,6 +3128,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 7335814118411936308, guid: fc5bf27788fed4bdfa3bafaa4dd0cf9e, type: 3}
   speed: 50
+--- !u!1 &487381245
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 487381246}
+  m_Layer: 0
+  m_Name: WanderPoint (1)
+  m_TagString: WanderPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &487381246
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487381245}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.599983, y: -13.205168, z: -13.545698}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1683760147}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &488620859
 GameObject:
   m_ObjectHideFlags: 0
@@ -2803,6 +3190,36 @@ Transform:
   - {fileID: 1023928818}
   m_Father: {fileID: 576784256}
   m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &497740823
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 497740824}
+  m_Layer: 0
+  m_Name: WanderPoint (3)
+  m_TagString: WanderPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &497740824
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497740823}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.3000164, y: -13.205168, z: 1.4343014}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1683760147}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &509661823
 PrefabInstance:
@@ -2870,6 +3287,46 @@ PrefabInstance:
     - target: {fileID: 1334230044081080186, guid: 982f985873788834c911119427564b7f, type: 3}
       propertyPath: m_Name
       value: Pulsating Laser Field (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1334230044081080186, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1535607566376416307, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2216603411455539153, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691388766331442406, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4086049741779998011, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125584731027641108, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4503240317257433801, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171169426651941277, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642087991342922410, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8766453556545190961, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 982f985873788834c911119427564b7f, type: 3}
@@ -3133,6 +3590,46 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pulsating Laser Field (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1334230044081080186, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1535607566376416307, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2216603411455539153, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691388766331442406, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4086049741779998011, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125584731027641108, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4503240317257433801, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171169426651941277, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642087991342922410, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8766453556545190961, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 982f985873788834c911119427564b7f, type: 3}
 --- !u!4 &550769516 stripped
@@ -3193,11 +3690,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 668598929689026195, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.95704967
+      value: -0.96
       objectReference: {fileID: 0}
     - target: {fileID: 668598929689026195, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.9972115
+      value: -0.6
       objectReference: {fileID: 0}
     - target: {fileID: 668598929689026195, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3235,6 +3732,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Drone
       objectReference: {fileID: 0}
+    - target: {fileID: 668598929689248435, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
 --- !u!4 &604882107 stripped
@@ -3252,6 +3753,10 @@ PrefabInstance:
     - target: {fileID: 5005543047102609733, guid: 33b6f797ced1743928b81fbce4d9a7f1, type: 3}
       propertyPath: m_Name
       value: xbot (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005543047102609733, guid: 33b6f797ced1743928b81fbce4d9a7f1, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 5637541696809624575, guid: 33b6f797ced1743928b81fbce4d9a7f1, type: 3}
       propertyPath: m_RootOrder
@@ -3409,6 +3914,10 @@ PrefabInstance:
     - target: {fileID: 5005543047102609733, guid: 33b6f797ced1743928b81fbce4d9a7f1, type: 3}
       propertyPath: m_Name
       value: xbot
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005543047102609733, guid: 33b6f797ced1743928b81fbce4d9a7f1, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 5637541696809624575, guid: 33b6f797ced1743928b81fbce4d9a7f1, type: 3}
       propertyPath: m_RootOrder
@@ -3825,6 +4334,36 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 710638260}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &716669839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 716669840}
+  m_Layer: 0
+  m_Name: WanderPoint
+  m_TagString: WanderPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &716669840
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 716669839}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8.170017, y: -13.205168, z: -6.045698}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1683760147}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &719736902
 GameObject:
   m_ObjectHideFlags: 0
@@ -3839,7 +4378,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &719736903
 Transform:
@@ -3861,6 +4400,36 @@ Transform:
   - {fileID: 1156715827}
   m_Father: {fileID: 225554134}
   m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &729660947
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 729660948}
+  m_Layer: 0
+  m_Name: WanderPoint (5)
+  m_TagString: WanderPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &729660948
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729660947}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -9.199984, y: -13.205168, z: 22.2343}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1683760147}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &744535813
 GameObject:
@@ -3964,6 +4533,22 @@ PrefabInstance:
       propertyPath: button
       value: 
       objectReference: {fileID: 1472908359}
+    - target: {fileID: 1326456533963417278, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734997199630278988, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866292489249400675, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2246256640807923857, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2609379204832053316, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
       propertyPath: button
       value: 
@@ -4028,14 +4613,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: Laser Field
       objectReference: {fileID: 0}
+    - target: {fileID: 3735406660587648290, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3755269011083593323, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580163818492446089, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5247046981462720582, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
       propertyPath: button
       value: 
       objectReference: {fileID: 1472908359}
+    - target: {fileID: 5430445319343753458, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6411512502562770537, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6590970725095376605, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
       propertyPath: button
       value: 
       objectReference: {fileID: 1472908359}
+    - target: {fileID: 7390785791361563589, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8555253039600629226, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
       propertyPath: button
       value: 
@@ -4201,7 +4810,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &796411295
 Transform:
@@ -4296,7 +4905,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &804841057
 Transform:
@@ -4645,7 +5254,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &874143657
 Transform:
@@ -4865,6 +5474,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: xbot (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5005543047102609733, guid: 33b6f797ced1743928b81fbce4d9a7f1, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 5637541696809624575, guid: 33b6f797ced1743928b81fbce4d9a7f1, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -5078,6 +5691,46 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pulsating Laser Field (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1334230044081080186, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1535607566376416307, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2216603411455539153, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691388766331442406, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4086049741779998011, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125584731027641108, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4503240317257433801, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171169426651941277, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642087991342922410, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8766453556545190961, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 982f985873788834c911119427564b7f, type: 3}
 --- !u!4 &895088971 stripped
@@ -5274,7 +5927,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &938061903
 Transform:
@@ -5583,6 +6236,22 @@ PrefabInstance:
       propertyPath: button
       value: 
       objectReference: {fileID: 825505867}
+    - target: {fileID: 1326456533963417278, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734997199630278988, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866292489249400675, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2246256640807923857, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2609379204832053316, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
       propertyPath: button
       value: 
@@ -5651,14 +6320,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: Laser Field (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3735406660587648290, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3755269011083593323, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580163818492446089, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5247046981462720582, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
       propertyPath: button
       value: 
       objectReference: {fileID: 825505867}
+    - target: {fileID: 5430445319343753458, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6411512502562770537, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6590970725095376605, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
       propertyPath: button
       value: 
       objectReference: {fileID: 825505867}
+    - target: {fileID: 7390785791361563589, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8555253039600629226, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
       propertyPath: button
       value: 
@@ -5867,6 +6560,46 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pulsating Laser Field (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1334230044081080186, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1535607566376416307, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2216603411455539153, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691388766331442406, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4086049741779998011, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125584731027641108, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4503240317257433801, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171169426651941277, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642087991342922410, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8766453556545190961, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 982f985873788834c911119427564b7f, type: 3}
 --- !u!4 &1053319907 stripped
@@ -6020,6 +6753,46 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pulsating Laser Field (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1334230044081080186, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1535607566376416307, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2216603411455539153, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691388766331442406, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4086049741779998011, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125584731027641108, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4503240317257433801, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171169426651941277, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642087991342922410, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8766453556545190961, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 982f985873788834c911119427564b7f, type: 3}
 --- !u!4 &1080121429 stripped
@@ -6094,6 +6867,46 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pulsating Laser Field
       objectReference: {fileID: 0}
+    - target: {fileID: 1334230044081080186, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1535607566376416307, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2216603411455539153, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691388766331442406, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4086049741779998011, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125584731027641108, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4503240317257433801, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171169426651941277, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642087991342922410, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8766453556545190961, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 982f985873788834c911119427564b7f, type: 3}
 --- !u!4 &1119346411 stripped
@@ -6118,7 +6931,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1152321129
 Transform:
@@ -6219,6 +7032,22 @@ PrefabInstance:
       propertyPath: button
       value: 
       objectReference: {fileID: 825505867}
+    - target: {fileID: 1326456533963417278, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734997199630278988, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866292489249400675, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2246256640807923857, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2609379204832053316, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
       propertyPath: button
       value: 
@@ -6287,14 +7116,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: Laser Field
       objectReference: {fileID: 0}
+    - target: {fileID: 3735406660587648290, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3755269011083593323, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580163818492446089, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5247046981462720582, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
       propertyPath: button
       value: 
       objectReference: {fileID: 825505867}
+    - target: {fileID: 5430445319343753458, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6411512502562770537, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6590970725095376605, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
       propertyPath: button
       value: 
       objectReference: {fileID: 825505867}
+    - target: {fileID: 7390785791361563589, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8555253039600629226, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
       propertyPath: button
       value: 
@@ -6643,7 +7496,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1221567154
 Transform:
@@ -6788,6 +7641,46 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pulsating Laser Field (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1334230044081080186, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1535607566376416307, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2216603411455539153, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691388766331442406, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4086049741779998011, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125584731027641108, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4503240317257433801, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171169426651941277, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642087991342922410, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8766453556545190961, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 982f985873788834c911119427564b7f, type: 3}
 --- !u!4 &1226376708 stripped
@@ -6911,7 +7804,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 668598929689026195, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.92
+      value: -0.59
       objectReference: {fileID: 0}
     - target: {fileID: 668598929689026195, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6948,6 +7841,10 @@ PrefabInstance:
     - target: {fileID: 668598929689248435, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
       propertyPath: m_Name
       value: Drone (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 668598929689248435, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
@@ -7022,6 +7919,46 @@ PrefabInstance:
     - target: {fileID: 1334230044081080186, guid: 982f985873788834c911119427564b7f, type: 3}
       propertyPath: m_Name
       value: Pulsating Laser Field (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1334230044081080186, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1535607566376416307, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2216603411455539153, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691388766331442406, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4086049741779998011, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125584731027641108, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4503240317257433801, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171169426651941277, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642087991342922410, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8766453556545190961, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 982f985873788834c911119427564b7f, type: 3}
@@ -7230,6 +8167,36 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1256773370}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1263813740
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1263813741}
+  m_Layer: 0
+  m_Name: WanderPoint (6)
+  m_TagString: WanderPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1263813741
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263813740}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -9.199984, y: -13.205168, z: 29.134302}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1683760147}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1277419856
 GameObject:
   m_ObjectHideFlags: 0
@@ -7490,6 +8457,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: xbot (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5005543047102609733, guid: 33b6f797ced1743928b81fbce4d9a7f1, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 5637541696809624575, guid: 33b6f797ced1743928b81fbce4d9a7f1, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -7555,7 +8526,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1315085580
 Transform:
@@ -7682,7 +8653,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1356068301
 Transform:
@@ -7717,7 +8688,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1358849642
 Transform:
@@ -7861,6 +8832,46 @@ PrefabInstance:
     - target: {fileID: 1334230044081080186, guid: 982f985873788834c911119427564b7f, type: 3}
       propertyPath: m_Name
       value: Pulsating Laser Field (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1334230044081080186, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1535607566376416307, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2216603411455539153, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691388766331442406, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4086049741779998011, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125584731027641108, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4503240317257433801, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171169426651941277, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642087991342922410, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8766453556545190961, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 982f985873788834c911119427564b7f, type: 3}
@@ -8031,6 +9042,36 @@ Transform:
   m_Father: {fileID: 576784256}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1463644854
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1463644855}
+  m_Layer: 0
+  m_Name: WanderPoint (7)
+  m_TagString: WanderPoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1463644855
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1463644854}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 6.400017, y: -13.205168, z: 29.134302}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1683760147}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1467098566
 GameObject:
   m_ObjectHideFlags: 0
@@ -8045,7 +9086,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1467098567
 Transform:
@@ -8128,7 +9169,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6410979581815896782, guid: 5faef494ddba4479c889580a80b2ee66, type: 3}
       propertyPath: m_Name
-      value: EnemyButton
+      value: LaserButton
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5faef494ddba4479c889580a80b2ee66, type: 3}
@@ -8165,6 +9206,22 @@ PrefabInstance:
       propertyPath: button
       value: 
       objectReference: {fileID: 825505867}
+    - target: {fileID: 1326456533963417278, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734997199630278988, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866292489249400675, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2246256640807923857, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2609379204832053316, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
       propertyPath: button
       value: 
@@ -8233,14 +9290,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: Laser Field (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3735406660587648290, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3755269011083593323, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580163818492446089, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5247046981462720582, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
       propertyPath: button
       value: 
       objectReference: {fileID: 825505867}
+    - target: {fileID: 5430445319343753458, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6411512502562770537, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6590970725095376605, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
       propertyPath: button
       value: 
       objectReference: {fileID: 825505867}
+    - target: {fileID: 7390785791361563589, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8555253039600629226, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
       propertyPath: button
       value: 
@@ -8266,7 +9347,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1504541220
 Transform:
@@ -8303,7 +9384,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1538162302
 Transform:
@@ -8577,6 +9658,22 @@ PrefabInstance:
       propertyPath: button
       value: 
       objectReference: {fileID: 825505867}
+    - target: {fileID: 1326456533963417278, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734997199630278988, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866292489249400675, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2246256640807923857, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2609379204832053316, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
       propertyPath: button
       value: 
@@ -8645,14 +9742,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: Laser Field (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3735406660587648290, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3755269011083593323, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580163818492446089, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5247046981462720582, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
       propertyPath: button
       value: 
       objectReference: {fileID: 825505867}
+    - target: {fileID: 5430445319343753458, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6411512502562770537, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6590970725095376605, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
       propertyPath: button
       value: 
       objectReference: {fileID: 825505867}
+    - target: {fileID: 7390785791361563589, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8555253039600629226, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
       propertyPath: button
       value: 
@@ -8681,7 +9802,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1600192925
 Transform:
@@ -8875,7 +9996,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 668598929689026195, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.376539
+      value: -1.03
       objectReference: {fileID: 0}
     - target: {fileID: 668598929689026195, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8912,6 +10033,10 @@ PrefabInstance:
     - target: {fileID: 668598929689248435, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
       propertyPath: m_Name
       value: Drone (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 668598929689248435, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
@@ -9197,7 +10322,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 668598929689026195, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.68
+      value: -1.35
       objectReference: {fileID: 0}
     - target: {fileID: 668598929689026195, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9234,6 +10359,10 @@ PrefabInstance:
     - target: {fileID: 668598929689248435, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
       propertyPath: m_Name
       value: Drone
+      objectReference: {fileID: 0}
+    - target: {fileID: 668598929689248435, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
@@ -9275,6 +10404,103 @@ Transform:
   m_Father: {fileID: 670378338}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1661023584
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 998489425813797185, guid: 774ef364430b14847a52694e3655b3d5, type: 3}
+      propertyPath: m_Name
+      value: PauseCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 998489425813797188, guid: 774ef364430b14847a52694e3655b3d5, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 998489425813797188, guid: 774ef364430b14847a52694e3655b3d5, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 998489425813797188, guid: 774ef364430b14847a52694e3655b3d5, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 998489425813797188, guid: 774ef364430b14847a52694e3655b3d5, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 998489425813797188, guid: 774ef364430b14847a52694e3655b3d5, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 998489425813797188, guid: 774ef364430b14847a52694e3655b3d5, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 998489425813797188, guid: 774ef364430b14847a52694e3655b3d5, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 998489425813797188, guid: 774ef364430b14847a52694e3655b3d5, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 998489425813797188, guid: 774ef364430b14847a52694e3655b3d5, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 998489425813797188, guid: 774ef364430b14847a52694e3655b3d5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 998489425813797188, guid: 774ef364430b14847a52694e3655b3d5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 998489425813797188, guid: 774ef364430b14847a52694e3655b3d5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 998489425813797188, guid: 774ef364430b14847a52694e3655b3d5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 998489425813797188, guid: 774ef364430b14847a52694e3655b3d5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 998489425813797188, guid: 774ef364430b14847a52694e3655b3d5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 998489425813797188, guid: 774ef364430b14847a52694e3655b3d5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 998489425813797188, guid: 774ef364430b14847a52694e3655b3d5, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 998489425813797188, guid: 774ef364430b14847a52694e3655b3d5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 998489425813797188, guid: 774ef364430b14847a52694e3655b3d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 998489425813797188, guid: 774ef364430b14847a52694e3655b3d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 998489425813797188, guid: 774ef364430b14847a52694e3655b3d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 774ef364430b14847a52694e3655b3d5, type: 3}
 --- !u!1 &1667942504
 GameObject:
   m_ObjectHideFlags: 0
@@ -9326,6 +10552,10 @@ PrefabInstance:
     - target: {fileID: 5005543047102609733, guid: 33b6f797ced1743928b81fbce4d9a7f1, type: 3}
       propertyPath: m_Name
       value: xbot (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005543047102609733, guid: 33b6f797ced1743928b81fbce4d9a7f1, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 5637541696809624575, guid: 33b6f797ced1743928b81fbce4d9a7f1, type: 3}
       propertyPath: m_RootOrder
@@ -9473,6 +10703,44 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1675456748}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1683760146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1683760147}
+  m_Layer: 0
+  m_Name: WanderPoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1683760147
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683760146}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.37469536, y: 7.8005333, z: -27.011415}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 716669840}
+  - {fileID: 487381246}
+  - {fileID: 115241831}
+  - {fileID: 497740824}
+  - {fileID: 40212239}
+  - {fileID: 729660948}
+  - {fileID: 1263813741}
+  - {fileID: 1463644855}
+  m_Father: {fileID: 14775972}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1702442241
 GameObject:
   m_ObjectHideFlags: 0
@@ -10345,6 +11613,46 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pulsating Laser Field (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1334230044081080186, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1535607566376416307, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2216603411455539153, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691388766331442406, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4086049741779998011, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125584731027641108, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4503240317257433801, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171169426651941277, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642087991342922410, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8766453556545190961, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 982f985873788834c911119427564b7f, type: 3}
 --- !u!4 &1852746211 stripped
@@ -10464,7 +11772,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1890245255
 Transform:
@@ -10644,6 +11952,22 @@ PrefabInstance:
       propertyPath: button
       value: 
       objectReference: {fileID: 825505867}
+    - target: {fileID: 1326456533963417278, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734997199630278988, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866292489249400675, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2246256640807923857, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2609379204832053316, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
       propertyPath: button
       value: 
@@ -10712,14 +12036,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: Laser Field (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3735406660587648290, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3755269011083593323, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580163818492446089, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5247046981462720582, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
       propertyPath: button
       value: 
       objectReference: {fileID: 825505867}
+    - target: {fileID: 5430445319343753458, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6411512502562770537, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6590970725095376605, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
       propertyPath: button
       value: 
       objectReference: {fileID: 825505867}
+    - target: {fileID: 7390785791361563589, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8555253039600629226, guid: 58963c474d2d7464aa551a63fc7ca7ce, type: 3}
       propertyPath: button
       value: 
@@ -11011,7 +12359,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &1973850993
 Transform:
@@ -11460,7 +12808,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 668598929689026195, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.58
+      value: -0.71
       objectReference: {fileID: 0}
     - target: {fileID: 668598929689026195, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11497,6 +12845,10 @@ PrefabInstance:
     - target: {fileID: 668598929689248435, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
       propertyPath: m_Name
       value: Drone
+      objectReference: {fileID: 0}
+    - target: {fileID: 668598929689248435, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30d59d12061aa4647a7c4d8886f669fa, type: 3}
@@ -11762,6 +13114,46 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pulsating Laser Field (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1334230044081080186, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1535607566376416307, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2216603411455539153, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691388766331442406, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4086049741779998011, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125584731027641108, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4503240317257433801, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171169426651941277, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642087991342922410, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8766453556545190961, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 982f985873788834c911119427564b7f, type: 3}
 --- !u!4 &2050871944 stripped
@@ -11990,6 +13382,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: xbot (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5005543047102609733, guid: 33b6f797ced1743928b81fbce4d9a7f1, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 5637541696809624575, guid: 33b6f797ced1743928b81fbce4d9a7f1, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -12146,6 +13542,10 @@ PrefabInstance:
     - target: {fileID: 5005543047102609733, guid: 33b6f797ced1743928b81fbce4d9a7f1, type: 3}
       propertyPath: m_Name
       value: xbot (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005543047102609733, guid: 33b6f797ced1743928b81fbce4d9a7f1, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 5637541696809624575, guid: 33b6f797ced1743928b81fbce4d9a7f1, type: 3}
       propertyPath: m_RootOrder
@@ -12359,6 +13759,46 @@ PrefabInstance:
     - target: {fileID: 1334230044081080186, guid: 982f985873788834c911119427564b7f, type: 3}
       propertyPath: m_Name
       value: Pulsating Laser Field (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1334230044081080186, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1535607566376416307, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2216603411455539153, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691388766331442406, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4086049741779998011, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125584731027641108, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4503240317257433801, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5171169426651941277, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7642087991342922410, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8766453556545190961, guid: 982f985873788834c911119427564b7f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 982f985873788834c911119427564b7f, type: 3}

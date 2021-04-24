@@ -32,7 +32,7 @@ public class MouseController : MonoBehaviour
             GetComponent<AudioSource>().volume = 1.0f;
         }
 
-        if(!LevelManager.isGameOver)
+        if(!LevelManager.isGameOver && !PauseMenu.isGamePaused)
             {
              if (transform.parent.transform != null)
              {
