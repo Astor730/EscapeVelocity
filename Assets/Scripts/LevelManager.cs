@@ -66,7 +66,7 @@ public class LevelManager : MonoBehaviour
 
     void LoadNextLevel()
     {
-        //SceneManager.LoadScene(nextLevel);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void DisplayLaserButtonText()

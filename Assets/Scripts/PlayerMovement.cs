@@ -35,10 +35,6 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
 
-        //if(!hasFlipped)
-        //{
-        //    Flip();
-        //}
 
         TouchingGround();
 
@@ -80,7 +76,6 @@ public class PlayerMovement : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.G))
             {
                 Flip();
-                //hasFlipped = false;
 
                 gravityFlipped = !gravityFlipped;
                 gravity = -gravity;
@@ -106,9 +101,6 @@ public class PlayerMovement : MonoBehaviour
 
     void Flip()
     {
-        //Quaternion rotation = transform.rotation;
-        //Quaternion newRotation = Quaternion.Euler(rotation.x, rotation.y + 270, 180);
-        //transform.rotation = Quaternion.Lerp(transform.rotation, newRotation, Time.deltaTime * 2);
 
         transform.Rotate(0, 0, 180);
 
